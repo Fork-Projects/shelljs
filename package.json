@@ -29,6 +29,9 @@
     "gendocs": "node scripts/generate-docs",
     "lint": "jshint .",
     "after-travis": "travis-check-changes",
+    "release:major": "release major",
+    "release:minor": "release minor",
+    "release:patch": "release patch",
     "changelog": "bash scripts/changelog.sh"
   },
   "bin": {
@@ -42,6 +45,7 @@
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "jshint": "^2.9.2",
+    "shelljs-release": "^0.1.5",
     "travis-check-changes": "^0.2.0"
   },
   "optionalDependencies": {},
